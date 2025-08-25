@@ -1,0 +1,11 @@
+.timeline-root { position: relative; border: 1px solid #ddd; border-radius: 8px; overflow: auto; }
+.timeline-header { position: sticky; top: 0; background: #fafafa; border-bottom: 1px solid #eee; z-index: 2; }
+.header-scale { position: relative; height: 32px; display: flex; align-items: center; white-space: nowrap; font-size: 12px; color: #555; }
+.scale-tick { position: absolute; top: 0; height: 32px; border-left: 1px solid #eee; padding-left: 4px; display:flex; align-items:center; }
+.lanes { position: relative; }
+.lane-row { position: relative; border-top: 1px solid #f0f0f0; height: 48px; }
+.lane-label { position: sticky; left: 0; width: 120px; background: #fff; border-right: 1px solid #eee; height: 100%; display:flex; align-items:center; justify-content:center; font-weight: 600; z-index:1;}
+.lane-track { position: absolute; left: 120px; right: 0; top: 0; bottom: 0; }
+.bar { position: absolute; height: 28px; top: 10px; border-radius: 6px; border: 1px solid #bbb; background: #e7f0ff; cursor: pointer; display:flex; align-items:center; padding: 0 8px; font-size: 12px; }
+.bar.highlight { background: #ffd54d; border-color: #d4a500; }
+.now-line { position: absolute; top: 0; bottom: 0; width: 2px; background: #ff1744; }
